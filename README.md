@@ -1,3 +1,5 @@
+# Obsidian Board
+
 ![video](https://github.com/user-attachments/assets/c40da606-d3a4-4a4e-b96c-54f9b8f17819)
 
 
