@@ -6,7 +6,7 @@
 ![Board](/kanbanMD-Updated/board_img.png)
 ![Setting](/kanbanMD-Updated/boardSettings_img.png)
 
-### Usage for full vaul - New method
+### Usage for full vault - New method
 > The files related to the new method are inside the folder [KanbanMD_Updated](/kanbanMD-Updated/)
 
 1. Copy the [kanbanMD_wConfig.md](/kanbanMD-Updated/kanbanMD_wConfig.md) to your vault. 
@@ -19,7 +19,7 @@
 1. You can select any target folder. 
 2. Exclude list is folders to exclude inside the target folder. Exclude list for tags filters out any tags mentioned. 
 3. Default cards per collum is the maximum cards loaded without using **Load More** button. Each iteration of load more button, loads the same number of files as the number in default cards per column setting. 
-4. Column names are based on the `status` frontmatter in properites. This can be edited in settings. 
+4. Column names are based on the `status` frontmatter in properties. This can be edited in settings. 
 5. Folder colors are specific colors that can be assigned to left-border of the cards populated for folders that are already in the target folder. Any folder not mentioned will get an accent color border based on general obsidian settings. This setting doesn't affect what folders are populated, only if they get a specific color. 
 6. Progress Colors are based on the progress frontmatter in the properties. It's coded to produce a progress bar from 0-5 range. Each level of progress produces a different color which can be changed using this setting. For deeper editing, adding more levels, code editing is required. 
 7. Config File Location - this is just a visible cue for where file is located. Can't be edited as of now. 
