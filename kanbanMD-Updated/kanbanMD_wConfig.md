@@ -77,6 +77,7 @@ async function saveConfig(newConfig) {
     throw e;
   }
 }
+
 // ───────────────────────────────────────────────────────────────────────────────
 // 2. Persistent state (drag overrides, collapsed columns, etc.)
 // ───────────────────────────────────────────────────────────────────────────────
@@ -321,6 +322,7 @@ function renderBoard() {
         });
       }
     });
+
     if (hasMore) {
 			  const loadMoreBtn = cardList.createEl("button", {
 			    cls: "kb-load-more-btn",
@@ -384,14 +386,13 @@ function renderConfigPanel() {
   excludeTagsInput.value = EXCLUDE_TAGS.join(", ");
   
   form.createEl("label", { text: "Default Cards per Column" });
-const limitInput = form.createEl("input", {
+  const limitInput = form.createEl("input", {
   type: "number",
   min: 1,
   max: 100,
   value: String(DEFAULT_LIMIT),
   cls: "kb-config-input"
-});
-  
+  });
   
   // ── Columns Editor ───────────────────────────────────────────────────────── 
   
@@ -625,7 +626,12 @@ function renderProgressEditor() {
   });
 }
 renderProgressEditor();
-  
+
+form.createEl("label", { text: "Config File Location" });
+const locationText = form.createEl("div", { 
+  cls: "kb-config-info-text",
+  text: CONFIG_FILE 
+}); 
 
   const buttonRow = form.createEl("div", { cls: "kb-config-buttons" });
   const saveBtn = buttonRow.createEl("button", { text: "Save & Refresh", cls: "kb-config-save-btn" });

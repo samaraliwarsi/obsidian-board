@@ -369,3 +369,13 @@
   padding-left: 8px;
   margin-top: 6px;
 }
+
+.kb-config-info-text {
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  padding: 6px 8px;
+  background: var(--background-modifier-form-field);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-muted);
+}
