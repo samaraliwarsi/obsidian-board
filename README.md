@@ -9,7 +9,7 @@
 ### Usage for full vaul - New method
 > The files related to the new method are inside the folder [KanbanMD_Updated](/kanbanMD-Updated/)
 
-1. Copy the [kanbanMD](/kanbanMD-Updated/kanbanMD_wConfig.md) to your vault. 
+1. Copy the [kanbanMD_wConfig.md](/kanbanMD-Updated/kanbanMD_wConfig.md) to your vault. 
 2. Add the [kanban.css](/kanbanMD-Updated/kanban-board.css) file to `.obsidian/Snippets` and enable it from `Settings/Apperance` in Obsidian.
 3. The board should create a file `kanban-config.json` in a folder called `.kanban/` at the root of your Obsidian vault. If it doesn't, create it. This file will contain the settings related to the board. 
 4. Use the file - Open Board settings and set your target folder, exclude folder, exclude tags and other settings. 
